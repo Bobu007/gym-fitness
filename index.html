@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gym & Fitness</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- AOS link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 text-uppercase sticky-top shadow-lg">
+        <div class="container">
+            <a href="" class="navbar-brand">Gym & Fitness</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="#about">Home</a>
+                    </li>
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="#plan">Plan</a>
+                    </li>
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-1">
+                        <a href="#loginOffcanvas" class="nav-link" data-bs-toggle="offcanvas">Sing In</a>
+                    </li>
+                    <li class="nav-item ms-1">
+                        <a href="#regOffcanvas" class="nav-link" data-bs-toggle="offcanvas">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <header id="header">
+        <video src="./images/header-viseo.mp4" autoplay loop muted></video>
+        <div class="overlay"></div>
+        <div class="container py-5">
+            <h1 class="text-white" style="font-size: 5rem;" data-aos="fade-right" data-aos-duration="2000">BE FITNESS
+            </h1>
+            <h3 class="text-white" style="font-size: 3rem;" data-aos="fade-left" data-aos-duration="2000">& BE STRONG
+            </h3>
+            <p class="text-white" style="max-width: 500px;" data-aos="fade-right" data-aos-duration="2000">Lorem ipsum
+                dolor sit amet consectetur
+                adipisicing elit.
+                Recusandae,
+                cumque dignissimos fugit quaerat
+                blanditiis rerum modi? Eum iusto sequi omnis quis doloribus. Unde suscipit, animi cum magnam quo nostrum
+                vero.</p>
+            <a href="#regOffcanvas" class="btn btn-danger" data-bs-toggle="offcanvas" data-aos="fade-left"
+                data-aos-duration="2000">JOIN US</a>
+        </div>
+    </header>
+
+    <section id="about" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">ABOUT US</div>
+        <div class="main-heading" data-aos="fade-right">Who We Are</div>
+        <div class="heading-line" data-aos="fade-left"></div>
+        <div class="row align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, tempore facere
+                    dolores velit, rem
+                    nesciunt quod aut consectetur esse veniam deleniti quisquam voluptas doloremque commodi delectus.
+                    Optio aut blanditiis saepe.</p>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolor numquam
+                    exercitationem
+                    consequuntur sunt sed necessitatibus, placeat ipsum, rerum voluptas unde velit architecto! Nam eaque
+                    dolore ex soluta, exercitationem eius!</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <img src="./images/about.jpg" alt="" class="img-fluid rounded-1">
+            </div>
+        </div>
+    </section>
+
+    <section id="Service" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">OUR SERVICES</div>
+        <div class="main-heading" data-aos="fade-right">What We Offer</div>
+        <div class="heading-line" data-aos="fade-left"></div>
+        <div class="row">
+            <div class="col-md-5" data-aos="fade-right">
+                <img src="./images/04.jpg" alt="" class="main-img img-fluid" style="max-height: 550px;">
+            </div>
+            <div class="col-md-7">
+                <div class="card service-card overflow-hidden bg-black my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-light">
+                            <h5>Retail Merchandise</h5>
+                            <p>Lorem ipelit. Iure expedita sint velit
+                                cumque iusto soluta namcumque iusto soluta namcumque iusto soluta nam totam saepe,
+                                itaque
+                                eritatis.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./images/01.jpg" alt="" class="border border-3 border-danger">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-black my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-light">
+                            <h5>Online Personal Training</h5>
+                            <p>Lorem ipsum dcumque iusto soluta namcumque iusto soluta namoloadipisicing elit. Iure
+                                expedita sint velit
+                                coue possiam saepe, itaque
+                                eritatis.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./images/02.jpg" alt="" class="border border-3 border-danger">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-black my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-light">
+                            <h5>Personal Training</h5>
+                            <p>Lorem ipsum dolor, sit amet cpisicing elit. Iure expedita sint velit
+                                corusto soluta nam totam saepe, itaque
+                                eritatis.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./images/03.jpg" alt="" class="border border-3 border-danger">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plan" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">PRICING TABLE</div>
+        <div class="main-heading" data-aos="fade-left">Membership Plans</div>
+        <div class="heading-line" data-aos="fade-right"></div>
+        <div class="row align-items-center">
+            <div class="col-md-6 col-lg-4" data-aos="fade-right">
+                <div class="card text-center text-light bg-black border-0">
+                    <div class="card-header">
+                        <h4>$<span class="fs-1">10</span>/day</h4>
+                    </div>
+                    <div class="alert bg-warning rounded-0">One Day Traning</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">An Item</li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A second item</li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A third item</li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A fourth item</li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">And a fifth one
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                <div class="card text-center text-light bg-black border border-2 border-danger plan-2">
+                    <div class="card-header">
+                        <h4>$<span class="fs-1">79</span>/months</h4>
+                    </div>
+                    <div class="alert bg-danger rounded-0">12 Months Membership</div>
+                    <div class="recommended">Recommended</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">An Item</li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A second item
+                            </li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A third item
+                            </li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A fourth item
+                            </li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">And a fifth one
+                            </li>
+                            <li class="list-group-item bg-transparent text-white my-2">
+                                <a href="#regOffcanvas" class="btn btn-danger" data-bs-toggle="offcanvas">SIGN UP
+                                    NOW</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-left">
+                <div class="card text-center text-light bg-black border-0">
+                    <div class="card-header">
+                        <h4>$<span class="fs-1">99</span>/months</h4>
+                    </div>
+                    <div class="alert bg-warning rounded-0">Monthly Payment</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">An Item</li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A second item
+                            </li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A third item
+                            </li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">A fourth item
+                            </li>
+                            <li class="list-group-item bg-transparent text-white my-2 border-bottom">And a fifth one
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="testimonial" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">TESTIMONIAL</div>
+        <div class="main-heading" data-aos="fade-left">What Our Clients Say</div>
+        <div class="heading-line" data-aos="fade-right"></div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row gy-2">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="card border-0 bg-black overflow-hidden">
+                                <div class="row">
+                                    <div class="col-sm-7 py-3 px-4">
+                                        <h4 class="text-white">Emma</h4>
+                                        <h6 class="text-warning">Client</h6>
+                                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Soluta veniam
+                                            coasperiores ullam quos, enim minima ea consequatur?
+                                            similique.</p>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <img src="./images/customer1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-lefet">
+                            <div class="card border-0 bg-black overflow-hidden">
+                                <div class="row">
+                                    <div class="col-sm-7 py-3 px-4">
+                                        <h4 class="text-white">Emma</h4>
+                                        <h6 class="text-warning">Client</h6>
+                                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Soluta veniam
+                                            coasperiores ullam quos, enim minima ea consequatur?
+                                            similique.</p>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <img src="./images/customer2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row gy-2">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="card border-0 bg-black overflow-hidden">
+                                <div class="row">
+                                    <div class="col-sm-7 py-3 px-4">
+                                        <h4 class="text-white">Emma</h4>
+                                        <h6 class="text-warning">Client</h6>
+                                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Soluta veniam
+                                            coasperiores ullam quos, enim minima ea consequatur?
+                                            similique.</p>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <img src="./images/04.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="card border-0 bg-black overflow-hidden">
+                                <div class="row">
+                                    <div class="col-sm-7 py-3 px-4">
+                                        <h4 class="text-white">Emma</h4>
+                                        <h6 class="text-warning">Client</h6>
+                                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Soluta veniam
+                                            coasperiores ullam quos, enim minima ea consequatur?
+                                            similique.</p>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <img src="./images/05.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row gy-2">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="card border-0 bg-black overflow-hidden">
+                                <div class="row">
+                                    <div class="col-sm-7 py-3 px-4">
+                                        <h4 class="text-white">Emma</h4>
+                                        <h6 class="text-warning">Client</h6>
+                                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Soluta veniam
+                                            coasperiores ullam quos, enim minima ea consequatur?
+                                            similique.</p>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <img src="./images/04.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="card border-0 bg-black overflow-hidden">
+                                <div class="row">
+                                    <div class="col-sm-7 py-3 px-4">
+                                        <h4 class="text-white">Emma</h4>
+                                        <h6 class="text-warning">Client</h6>
+                                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Soluta veniam
+                                            coasperiores ullam quos, enim minima ea consequatur?
+                                            similique.</p>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <img src="./images/customer1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="news" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">RECENT BLOGS</div>
+        <div class="main-heading" data-aos="fade-left">Our Lastest News</div>
+        <div class="heading-line" data-aos="fade-right"></div>
+        <div class="row gy-2">
+            <div class="col-lg-4 col-md-6" data-aos="fade-right">
+                <div class="card bg-black text-light">
+                    <div class="card-header">
+                        <img src="./images/customer4.jpg" alt=""
+                            class="img-fluid border border-1 border-danger rounded-1">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-warning">Blog Categroy One</h6>
+                        <h5>How to fit your body</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ratione, consequuntur illo
+                            magni atque quidem facere culpa minima quia praesentium modi quos veniam quisquam soluta,
+                            quo blanditiis id officiis voluptas.</p>
+                        <div>
+                            <span><i class="bi bi-stopwatch"></i>13m | Sara</span>
+                            <span class="float-end"><i class="bi bi-chat-dots"></i>52</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                <div class="card bg-black text-light">
+                    <div class="card-header">
+                        <img src="./images/customer4.jpg" alt=""
+                            class="img-fluid border border-1 border-danger rounded-1">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-warning">Blog Categroy Two</h6>
+                        <h5>Be working out daily</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ratione, consequuntur illo
+                            magni atque quidem facere culpa minima quia praesentium modi quos veniam quisquam soluta,
+                            quo blanditiis id officiis voluptas.</p>
+                        <div>
+                            <span><i class="bi bi-stopwatch"></i>120m | Sara</span>
+                            <span class="float-end"><i class="bi bi-chat-dots"></i>52</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-left">
+                <div class="card bg-black text-light">
+                    <div class="card-header">
+                        <img src="./images/customer4.jpg" alt=""
+                            class="img-fluid border border-1 border-danger rounded-1">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-warning">Blog Categroy Three</h6>
+                        <h5>For ABS People</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ratione, consequuntur illo
+                            magni atque quidem facere culpa minima quia praesentium modi quos veniam quisquam soluta,
+                            quo blanditiis id officiis voluptas.</p>
+                        <div>
+                            <span><i class="bi bi-stopwatch"></i>50m | Sara</span>
+                            <span class="float-end"><i class="bi bi-chat-dots"></i>52</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">FREQUENTLY ASK QUESTION</div>
+        <div class="main-heading" data-aos="fade-lefet">FAQ</div>
+        <div class="heading-line" data-aos="fade-right"></div>
+
+        <div class="accordion" id="accordionExample" data-aos="zoom-in-up">
+            <div class="accordion-item my-1">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Lorem ipsum dolor sit amet.
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam amet reiciendis magni
+                            voluptatibus eius quo debitis non culpa? Distinctio architecto nobis facilis sunt eos
+                            veritatis sequi ex debitis eveniet omnis?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-1">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Lorem ipsum dolor sit amet.
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam minus excepturi tempore vel
+                            molestiae delectus asperiores provident. Ea velit pariatur repudiandae, similique sequi quas
+                            veritatis voluptatibus quibusdam, temporibus, nam dolorem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-1">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Lorem ipsum dolor sit amet.
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ratione culpa. Doloribus
+                            deleniti aliquid possimus illum. Veniam neque aliquid laboriosam id? Odit, sunt tempore
+                            minus eos a error necessitatibus excepturi!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container-fluid">
+        <div class="sub-heading" data-aos="fade-right">CONTACT US</div>
+        <div class="main-heading" data-aos="fade-left">+351 3654</div>
+        <div class="heading-line" data-aos="fade-right"></div>
+
+        <a href="" class="btn btn-danger" data-aos="fade-left">CALL US NOW</a>
+
+    </section>
+
+    <footer id="footer" class="container-fluid bg-dark text-white p-5">
+        <div class="row g-5">
+            <div class="col-md-4">
+                <div class="sub-heading">GYM & FITNESS</div>
+                <div class="heading-line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, pariatur? Distinctio eaque dolor
+                    quasi debitis. Omnis quibusdam adipisci minus ratione ex molestias atque asperiores. Qui cupiditate
+                    sit velit explicabo ab.</p>
+                <div>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-twitter"></i></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-youtube"></i></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-instagram"></i></i></a>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sub-heading">Quick Contact</div>
+                <div class="heading-line"></div>
+                <ul>
+                    <li><i class="bi bi-geo-alt-fill text-danger"></i> No.123,Hlaing St,Yangon,Burma</li>
+                    <li><i class="bi bi-phone-fill text-danger"></i> +312 154 54</li>
+                    <li><i class="bi bi-envelope-at-fill text-danger"></i> Example@gmail.com</li>
+                    <li><i class="bi bi-browser-chrome text-danger"></i> <a href="#">www.gyifitness.com</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="sub-heading">Send Us Message</div>
+                <div class="heading-line"></div>
+                <form action="">
+                    <div class="mb-3">
+                        <input type="text" class="form-control border border-danger" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="" id="" class="form-control border border-danger" rows="5"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="btn btn-danger"><i class="bi bi-send"></i> Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <section id="copyright" class="container-fluid bg-dark text-white">
+        <p class="text-center"> &copy; COPYRIGHT & all right reserved by Hornbill-tech</p>
+    </section>
+
+    <a href="#header" class="up-arrow text-light"><i class="bi bi-arrow-up"></i></a>
+
+    <div class="offcanvas offcanvas-end" id="loginOffcanvas">
+        <div class="offcanvas-header">
+            <h4></h4>
+            <button class="btn btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="sub-heading text-danger">LOGIN FORM</div>
+            <div class="heading-line"></div>
+            <form action="">
+                <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control border-danger" name="email" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control border-danger">
+                </div>
+                <button class="btn btn-danger float-end"><i class="bi bi-send"></i> Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="sig-in-up">
+        <div class="offcanvas offcanvas-end" id="regOffcanvas">
+            <div class="offcanvas-header">
+                <h4></h4>
+                <button class="btn btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="sub-heading text-danger">REGISTRATION FORM</div>
+                <div class="heading-line"></div>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control border-danger" name="name" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control border-danger" name="email" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control border-danger">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" class="form-control border-danger">
+                    </div>
+                    <button class="btn btn-danger float-end"><i class="bi bi-send"></i> Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); 
+    </script>
+
+</body>
+
+</html>
